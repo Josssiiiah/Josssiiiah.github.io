@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
-import Main from "../components/Main";
+import Getintouch from "../components/Getintouch";
+import Main from "../components/Home";
 import Navbar from "../components/navbar";
 import Projects from "../components/Projects";
+import VerticalEmail from "../components/VerticalEmail";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Main />
       <About />
       <Projects />
+      <Getintouch />
+      {/* <VerticalEmail /> */}
     </div>
   );
 }
