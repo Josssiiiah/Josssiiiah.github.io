@@ -7,6 +7,7 @@ import LogoJ from "../public/assets/LogoJ.png";
 import SocialIcons from "../pageElements/SocialIcons";
 import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
 import { AiOutlineMail, AiOutlineLine } from "react-icons/ai";
+import { IoNewspaperOutline } from "react-icons/io5";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,11 +24,11 @@ const Navbar = () => {
   return (
     <>
       {/*Navbar Background */}
-      <div className="w-full shadow-lg h-28 ease-in-out duration-300">
-        {/*Navbar Container */}
-        <div className="flex justify-between items-center w-full h-full">
+      <div className="w-full h- ease-in-out duration-300">
+        {/* Web Top Menu*/}
+        <div className="hidden md:flex mt-10 items-center w-full justify-between">
           {/*Navbar Logo*/}
-          <div className="hidden md:flex flex-none pl-12">
+          <div className="flex items-center flex-none pl-16">
             <Link href="/Home">
               <a>
                 <Image
@@ -39,50 +40,43 @@ const Navbar = () => {
                 />
               </a>
             </Link>
-          </div>
-
-          {/*Web Menu Items*/}
-          <div>
-            <ul className="hidden md:flex m-0 flex-row text-center static justify-between py-6 px-8">
-              <li className="">
-                <Link href="/#Home">Home</Link>
-              </li>
-              <li className="ml-10 ">
-                <Link href="/">About</Link>
-              </li>
-              <li className="ml-10">
-                <Link href="/">Projects</Link>
-              </li>
-              <li className="ml-10">
-                <Link href="/">Timeline</Link>
-              </li>
-            </ul>
-          </div>
-          {/* Mobile Menu Items  */}
-          <div className="w-full">
-            <div className="md:hidden w-full flex flex-row justify-between static">
-              {/* Mobile Burger Toggle*/}
-              <div className="top-10 pl-10">
-                <Hamburger toggled={nav} toggle={toggleOpen} size={40} />
-              </div>
-              {/* Logo Image  */}
-              <div className="top-10 ">
-                <Image
-                  src="/../public/assets/LogoJ.png"
-                  width="80"
-                  height="45"
-                  alt="/"
-                />
-              </div>
+            {/* Divider  */}
+            <hr className="border-1 w-8 border-black rotate-90" />
+            <div className=" ">
+              <Hamburger toggled={nav} toggle={toggleOpen} size={40} />
             </div>
           </div>
 
-          {/*Resume Button*/}
-          <div className="  md:pr-8 lg: pr-12">
-            <div className="hidden md:flex ">
-              <div className="flex flex-row justify-between mx-auto max-w-[200px]">
-                <button className="w-full p-3 text-gray-100">Resume</button>
-              </div>
+          {/*Resume Link*/}
+          <div className="  md:pr-4 lg:pr-16">
+            <div className="flex flex-row justify-between mx-auto max-w-[200px] pr-8 cursor-pointer">
+              <IoNewspaperOutline size={20} className="mr-3 text-blue-500" />
+
+              <Link
+                href="/"
+                className="w-full p-3 text-gray-100 hover:text-white"
+              >
+                <h3>Resume</h3>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Menu Items  */}
+        <div className="w-full">
+          <div className="md:hidden mt-10 w-full flex flex-row items-center justify-between static">
+            {/* Mobile Burger Toggle*/}
+            <div className="top-10 pl-12">
+              <Hamburger toggled={nav} toggle={toggleOpen} size={40} />
+            </div>
+            {/* Logo Image  */}
+            <div className="top-10 pr-12 ">
+              <Image
+                src="/../public/assets/LogoJ.png"
+                width="80"
+                height="45"
+                alt="/"
+              />
             </div>
           </div>
         </div>
@@ -91,16 +85,54 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed  md:hidden left-0 top-0 w-full h-max bg-white p-4 "
+              ? "fixed left-0 top-0 w-full h-screen bg-white p-4 z-50"
               : "fixed left-[-100%] top-0 w-full h-max bg-white"
           }
         >
-          {/* Sidebar background  */}
-
           <div className="w-full h-screen bg-blue-300">
+            {/* Sidebar Top Menu */}
+            <div className="pt-6 flex items-center w-full justify-between">
+              {/*Top Left Side*/}
+              <div className="flex items-center flex-none pl-12">
+                <Link href="/Home">
+                  <a>
+                    <Image
+                      src={LogoJ}
+                      alt="/"
+                      width="100"
+                      height="50"
+                      className="cursor-pointer"
+                    />
+                  </a>
+                </Link>
+                {/* Divider  */}
+                <hr className="border-1 w-8 border-black rotate-90" />
+                <div className=" ">
+                  <Hamburger toggled={nav} toggle={toggleOpen} size={40} />
+                </div>
+              </div>
+
+              {/*Resume Link*/}
+              <div className=" pr-0 lg:pr-12">
+                <div className="flex flex-row justify-between mx-auto max-w-[200px] pr-8 cursor-pointer">
+                  <IoNewspaperOutline
+                    size={20}
+                    className="mr-3 text-blue-500"
+                  />
+
+                  <Link
+                    href="/"
+                    className="w-full p-3 text-gray-100 hover:text-white"
+                  >
+                    <h3>Resume</h3>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             {/* Sidebar Menu Items */}
-            <div className="flex flex-col md:hidden justify-center items-center py-8">
-              <div className="flex w-full mt-32">
+            <div className="flex flex-col justify-center items-center py-4">
+              <div className="flex w-full mt-12">
                 {/* Divider  */}
                 <div className="flex text-left pl-12 items-center justify-center">
                   <hr className="border-2 w-24 border-white" />
@@ -128,9 +160,9 @@ const Navbar = () => {
           </div>
 
           {/* Web Burger Toggle*/}
-          <div className={nav ? " fixed top-10 left-12  " : " hidden"}>
+          {/* <div className={nav ? " fixed top-10 left-12  " : " hidden"}>
             <Hamburger toggled={nav} toggle={toggleOpen} size={40} />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

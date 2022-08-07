@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
 
         {/* Content  */}
-        <div className="max-w-[1100px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="max-w-[1400px] mt-10 w-full h-full mx-auto p-2 flex justify-center items-center">
           {/* Project section */}
           <div>
             {/* Projects Grid  */}

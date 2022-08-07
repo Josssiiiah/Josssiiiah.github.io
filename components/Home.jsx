@@ -10,7 +10,7 @@ const Home = () => {
     <div id="/#Home" className="w-full h-screen text-center">
       <Navbar />
       {/* Background  */}
-      <div className=" mt-32 md:mt-1 pb-64 px-24 lg:px-10 max-w-[1100px] w-full h-full mx-auto md:flex justify-center items-center">
+      <div className=" mt-32 md:mt-6 pb-64 px-24 lg:px-10 max-w-[1100px] w-full h-full mx-auto md:flex justify-center items-center">
         {/* Title  */}
         <div className="text-center md:text-left">
           <div className="py-2">

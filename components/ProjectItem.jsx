@@ -10,7 +10,7 @@ const ProjectItem = ({
   projectUrl,
 }) => {
   return (
-    <div className="max-w-[375px] pt-4 mx-auto transition duration-500 hover:scale-105 relative flex flex-col justify-center shadow-xl shadow-gray-400 rounded-xl ">
+    <div className="max-w-[750px] pt-4 mx-auto transition duration-500 hover:scale-105 relative flex flex-col justify-center shadow-xl shadow-gray-400 rounded-xl ">
       {/* Image  */}
       <div className=" flex items-center">
         <Image className="rounded-xl h-full" src={backgroundImg} alt="/" />
