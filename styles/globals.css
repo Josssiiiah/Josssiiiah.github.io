@@ -4,27 +4,28 @@
 
 @layer base {
   body {
-    @apply bg-white text-black tracking-wide;
+    @apply bg-gradient-to-r from-[#ebf4f5] to-[#b5c6e0] text-black tracking-wide;
   }
 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-bold;
-  }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-[Merriweather];
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-[Merriweather] font-bold;
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl font-[Merriweather];
+    @apply text-3xl sm:text-4xl lg:text-6xl   font-[Merriweather];
+  }
+  h3 {
+    @apply text-xl sm:text-xl lg:text-2xl font-bold   font-[Merriweather];
+  }
+
+
+  h4 {
+    @apply text-base md:text-lg font-[Merriweather];
   }
 
   li {
-    @apply cursor-pointer;
+    @apply cursor-pointer font-[Merriweather];
   }
 
   ul {
@@ -32,6 +33,8 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl text-black border-black border-2 ;
   }
+
+
 }
