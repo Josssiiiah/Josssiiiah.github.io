@@ -36,8 +36,8 @@ const About = () => {
             </h4>
             <h4 className="py-4 max-w-5xl text-left leading-loose md:hidden">
               <span className="font-bold">In my free time, </span> you can find
-              me working on new coding projects, playing FIFA, or waiting for the stock
-              market to open.
+              me working on new coding projects, playing FIFA, or waiting for
+              the stock market to open.
             </h4>
 
             {/* Web Text  */}
@@ -57,9 +57,8 @@ const About = () => {
             <h4 className="py-4 max-w-5xl text-left hidden md:block leading-loose">
               <span className="font-bold">Since then, </span> I've studied data
               structures and algorithms in CS 106B and computer organization and
-              systems in CS 107 at Stanford. I have also pursued interests
-              outside of class and practiced my skills through personal
-              projects.
+              systems in CS 107 at Stanford. I've also pursued interests outside
+              of class and practiced my skills through personal projects.
             </h4>
           </div>
         </div>
