@@ -5,7 +5,7 @@ import Getintouch from "../components/Getintouch";
 import Main from "../components/Home";
 import Navbar from "../components/navbar";
 import Projects from "../components/Projects";
-import VerticalEmail from "../components/VerticalEmail";
+
 
 export default function Home() {
   return (
@@ -19,7 +19,6 @@ export default function Home() {
       <About />
       <Projects />
       <Getintouch />
-      {/* <VerticalEmail /> */}
     </div>
   );
 }

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Sling as Hamburger } from "hamburger-react";
-
 import LogoJ from "../public/assets/LogoJ.png";
 import SocialIcons from "../pageElements/SocialIcons";
 import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
