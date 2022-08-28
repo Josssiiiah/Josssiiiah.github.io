@@ -9,7 +9,7 @@
 
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-[Merriweather] font-bold;
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-[Merriweather] font-bold;
   }
 
   h2 {
@@ -21,7 +21,7 @@
 
 
   h4 {
-    @apply text-base md:text-lg font-[Merriweather];
+    @apply text-base md:text-lg lg:text-2xl font-[Merriweather];
   }
 
   li {

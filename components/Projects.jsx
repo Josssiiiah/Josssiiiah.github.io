@@ -1,10 +1,11 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import cryptoImg from "../public/assets/projects/crypto.png";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import weatherImg from "../public/assets/projects/Weather.png";
 import josiahImg from "../public/assets/projects/Josiahsite.png";
+import calculatorImg from "../public/assets/projects/calculator.png"
 
 
 const Projects = () => {
@@ -32,7 +33,8 @@ const Projects = () => {
               <ProjectItem
                 title="Personal Website"
                 backgroundImg={josiahImg}
-                projectUrl="/property"
+                githubUrl="/property"
+                projectUrl=""
                 tech="React JS"
                 description="This is the first version of my personal website, which 
             contains a portfolio, resume, and my timeline as a programmer. I built it with 
@@ -41,7 +43,17 @@ const Projects = () => {
               <ProjectItem
                 title="Josiahbase"
                 backgroundImg={cryptoImg}
-                projectUrl="/crypto"
+                githubUrl="https://github.com/Josssiiiah/JosiahBase"
+                projectUrl="https://josiah-base.vercel.app/"
+                tech="React JS"
+                description="I started this project to dip my toes into APIs and learn more 
+            about what I've heard people talking about. "
+              />     
+              <ProjectItem
+                title="Calculator App"
+                backgroundImg={calculatorImg}
+                githubUrl="https://github.com/Josssiiiah/react-calculator"
+                projectUrl="https://josssiiiah.github.io/react-calculator/"
                 tech="React JS"
                 description="I started this project to dip my toes into APIs and learn more 
             about what I've heard people talking about. "
@@ -49,11 +61,25 @@ const Projects = () => {
               <ProjectItem
                 title="Weather App"
                 backgroundImg={weatherImg}
-                projectUrl="/crypto"
+                githubUrl="https://github.com/Josssiiiah/nextjs-weather-app"
+                projectUrl="https://nextjs-weather-app1.vercel.app/"
                 tech="React JS"
                 description="I started this project to dip my toes into APIs and learn more 
             about what I've heard people talking about. "
               />
+
+              <div className="blur">
+              <ProjectItem
+                title="PlateShare"
+                backgroundImg={weatherImg}
+                githubUrl="https://github.com/Josssiiiah/nextjs-weather-app"
+                projectUrl="https://nextjs-weather-app1.vercel.app/"
+                tech="React JS"
+                description="I started this project to dip my toes into APIs and learn more 
+            about what I've heard people talking about. "
+              />
+         
+              </div>
             </div>
           </div>
         </div>

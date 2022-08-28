@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="hidden md:flex mt-10 items-center w-full justify-between">
           {/*Navbar Logo*/}
           <div className="flex items-center flex-none pl-16">
-            <Link href="/Home">
+            <Link href="/#home">
               <a>
                 <Image
                   src={LogoJ}
@@ -117,12 +117,9 @@ const Navbar = () => {
               </div>
 
               {/*Resume Link*/}
-              <div className=" pr-0 lg:pr-12">
+              <div className="pr-0 lg:pr-12 ">
                 <div className="flex flex-row justify-between items-center mx-auto max-w-[200px] pr-8 cursor-pointer">
-                  <IoNewspaperOutline
-                    size={25}
-                    className="mr-3 text-black"
-                  />
+                  <IoNewspaperOutline size={25} className="mr-3 text-black" />
 
                   <Link
                     href="/"
@@ -164,13 +161,13 @@ const Navbar = () => {
               </div>
 
               {/* Sidebar items */}
-              <ul className="w-full h-max bg-none px-12 mt-20 sm:mt-16 ">
+              <ul className="w-full h-max bg-none px-12 mt-14 sm:mt-16 ">
                 <div className="flex flex-col text-center sm:text-left justify-center text-lg font-bold">
                   <li
                     onClick={() => setNav(false)}
                     className="hover:text-white py-10 text-5xl"
                   >
-                    <Link href="/">Home</Link>
+                    <Link href="/#home">Home</Link>
                   </li>
                   <li
                     onClick={() => setNav(false)}

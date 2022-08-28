@@ -2,15 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+const openInNewTab = (url) => {
+  window.open(url, "_blank", "noopener,noreferrer");
+};
+
 const ProjectItem = ({
   title,
   description,
   backgroundImg,
   tech,
+  githubUrl,
   projectUrl,
 }) => {
   return (
-    <div className="shadow-xl shadow-gray-400 rounded-xl transition duration-400 hover:scale-105 mt-16">
+    <div className="shadow-2xl bg-[#b5c6e0]/30 shadow-gray-400 border-black border-2 rounded-3xl transition duration-500 hover:scale-105 mt-16">
       {/* Container  */}
       <div className=" md:flex w-full p-8">
         {/* Image  */}
@@ -32,13 +37,21 @@ const ProjectItem = ({
           </div>
           {/* Technologies  */}
           <div>
-            <p className="text-left pl-4 m-2"> {tech} </p>
+            <p className="text-left pl-4 m-2 text-black/70"> {tech} </p>
           </div>
           {/* View Project Button */}
 
           <div className="flex justify-items-start pl-4 pr-6 mt-8">
-            <button className="w-100 p-2 px-4 mx-2">Live Demo</button>
-            <button href={projectUrl} className="w-100 p-2 px-4 mx-2">
+            <button
+              className="w-100 p-2 px-4 mx-2"
+              onClick={() => openInNewTab(projectUrl)}
+            >
+              Live Demo
+            </button>
+            <button
+              onClick={() => openInNewTab(githubUrl)}
+              className="w-100 p-2 px-4 mx-2"
+            >
               Github
             </button>
           </div>
