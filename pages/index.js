@@ -3,7 +3,7 @@ import Image from "next/image";
 import About from "../components/About";
 import Getintouch from "../components/Getintouch";
 import Main from "../components/Home";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Nav";
 import Projects from "../components/Projects";
 
 

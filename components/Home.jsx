@@ -2,7 +2,7 @@ import avatar from "../public/assets/Avatar-Maker.svg";
 import React from "react";
 import Hero from "../pageElements/Hero";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
+import Navbar from "./Nav";
 import "animate.css";
 
 const Home = () => {
