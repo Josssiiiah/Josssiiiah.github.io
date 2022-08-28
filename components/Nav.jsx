@@ -68,7 +68,7 @@ const Navbar = () => {
             {/* Logo Image  */}
             <div className="top-10 pr-12 ">
               <Image
-                src="/../public/assets/LogoJ.png"
+                src= {LogoJ}
                 width="60"
                 height="60"
                 alt="/"
