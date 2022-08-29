@@ -134,30 +134,38 @@ const Navbar = () => {
 
             {/* Sidebar Bottom Menu Items */}
             <div className="flex flex-col justify-center py-4">
-              <div className="flex flex-row justify-center items-center sm:justify-start px-12 w-full sm:max-w-[600px] mt-12">
+              <div className="flex flex-row justify-center items-center sm:justify-start px-12 w-full sm:max-w-[800px] mt-12">
                 {/* Divider  */}
                 <div className="text-left">
-                  <hr className="border-2 w-16 border-white" />
+                  <hr className="border-4 w-24 border-white" />
                 </div>
 
                 {/* <SocialIcons /> */}
                 <ul className="flex flex-row ">
                   <li className="ml-6 hover:text-white">
-                    <RiGithubFill size={30} />
+                    <a href="https://github.com/josssiiiah" target="_blank">
+                      <RiGithubFill size={45} />
+                    </a>
                   </li>
 
                   <li className="ml-6 hover:text-white">
-                    <RiLinkedinBoxFill size={30} />
+                    <a
+                      href="
+                    https://www.linkedin.com/in/josiahgriggs/"
+                      target="_blank"
+                    >
+                      <RiLinkedinBoxFill size={45} />
+                    </a>
                   </li>
 
                   <li className="mx-6 hover:text-white">
-                    <AiOutlineMail size={30} />
+                    <AiOutlineMail size={45} />
                   </li>
                 </ul>
 
                 {/* Divider  */}
                 <div className="">
-                  <hr className="border-2 w-16 border-white" />
+                  <hr className="border-4 w-24 border-white" />
                 </div>
               </div>
 
@@ -166,25 +174,25 @@ const Navbar = () => {
                 <div className="flex flex-col text-center sm:text-left justify-center text-lg font-bold">
                   <li
                     onClick={() => setNav(false)}
-                    className="hover:text-white py-10 text-5xl"
+                    className="hover:text-white py-10 text-5xl md:text-6xl xl:text-7xl"
                   >
                     <Link href="/#home">Home</Link>
                   </li>
                   <li
                     onClick={() => setNav(false)}
-                    className="hover:text-white py-10 text-5xl"
+                    className="hover:text-white py-10 text-5xl md:text-6xl xl:text-7xl"
                   >
                     <Link href="/#projects">Projects</Link>
                   </li>
                   <li
                     onClick={() => setNav(false)}
-                    className="hover:text-white py-10 text-5xl"
+                    className="hover:text-white py-10 text-5xl md:text-6xl xl:text-7xl"
                   >
                     <Link href="/#about">About</Link>
                   </li>
                   <li
                     onClick={() => setNav(false)}
-                    className="hover:text-white py-10 text-5xl"
+                    className="hover:text-white py-10 text-5xl md:text-6xl xl:text-7xl"
                   >
                     <Link href="/#contact">Contact</Link>
                   </li>

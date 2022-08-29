@@ -18,7 +18,11 @@ const Getintouch = () => {
             discussing my past work! The best way to contact me is by email, or
             shoot me a message on Linkedin!
           </h4>
-          <button className="p-4 w-32"> Say Hi !</button>
+          <button className="p-4 w-32">
+            <a href="https://www.linkedin.com/in/josiahgriggs/" target="_blank">
+              Say Hi !
+            </a>
+          </button>
         </div>
 
         <div></div>

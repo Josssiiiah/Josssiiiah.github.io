@@ -1,12 +1,10 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.png";
-import netflixImg from "../public/assets/projects/netflix.jpg";
 import weatherImg from "../public/assets/projects/Weather.png";
 import josiahImg from "../public/assets/projects/Josiahsite.png";
-import calculatorImg from "../public/assets/projects/calculator.png"
-
+import calculatorImg from "../public/assets/projects/calculator.png";
+import plateShare from "../public/assets/projects/PlateShare.png";
 
 const Projects = () => {
   return (
@@ -46,37 +44,36 @@ const Projects = () => {
                 projectUrl="https://josiah-base.vercel.app/"
                 tech="React.js  | Next.js  | Tailwind | Coin Gecko API | Google Firebase"
                 description="Starter project to dip my toes into API's. Features dynamically rendered components, dark/light mode, protected routes, and Firebase authentication "
-              />     
-              <ProjectItem
-                title="Calculator App"
-                backgroundImg={calculatorImg}
-                githubUrl="https://github.com/Josssiiiah/react-calculator"
-                projectUrl="https://josssiiiah.github.io/react-calculator/"
-                tech="React.js | Tailwind"
-                description="I started this project to dip my toes into APIs and learn more 
-            about what I've heard people talking about. "
               />
               <ProjectItem
                 title="Weather App"
                 backgroundImg={weatherImg}
                 githubUrl="https://github.com/Josssiiiah/nextjs-weather-app"
                 projectUrl="https://nextjs-weather-app1.vercel.app/"
-                tech="React JS"
-                description="I started this project to dip my toes into APIs and learn more 
-            about what I've heard people talking about. "
+                tech="React.js | OpenWeatherMap API"
+                description="I ideated and completed this project to practice creating a React web app from scratch and 
+                utilizing dynamically rendered data from an API by myself "
+              />
+              <ProjectItem
+                title="Calculator App"
+                backgroundImg={calculatorImg}
+                githubUrl="https://github.com/Josssiiiah/react-calculator"
+                projectUrl="https://josssiiiah.github.io/react-calculator/"
+                tech="React.js | CSS"
+                description="I completed this project to pursue my curiousity of building a calculator without plug-ins or libraries. I also 
+                added a result-to-speech feature for accessibility, but I am still working out some bugs. "
               />
 
               <div className="blur">
-              <ProjectItem
-                title="PlateShare"
-                backgroundImg={weatherImg}
-                githubUrl="https://github.com/Josssiiiah/nextjs-weather-app"
-                projectUrl="https://nextjs-weather-app1.vercel.app/"
-                tech="React JS"
-                description="I started this project to dip my toes into APIs and learn more 
+                <ProjectItem
+                  title="PlateShare"
+                  backgroundImg={plateShare}
+                  githubUrl="https://github.com/Josssiiiah/nextjs-weather-app"
+                  projectUrl="https://nextjs-weather-app1.vercel.app/"
+                  tech="React.js | OpenWeatherMap API"
+                  description="I started this project to dip my toes into APIs and learn more 
             about what I've heard people talking about. "
-              />
-         
+                />
               </div>
             </div>
           </div>

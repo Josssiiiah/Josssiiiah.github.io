@@ -56,7 +56,7 @@ const About = () => {
               <span className="font-bold">Since then, </span> I've studied data
               structures and algorithms in CS 106B and computer organization and
               systems in CS 107 at Stanford. I've also pursued interests outside
-              of class and practiced my skills through personal projects.
+              of class, practicing my skills through personal projects.
             </h4>
           </div>
         </div>
