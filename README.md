@@ -60,7 +60,7 @@
 ## About The Project
 
 This is the first version of my portfolio website built with Next.js and React.js. It features my projects portfolio, my resume, and an about me section. 
-The site utilizes React hooks including useState and useEffect, and global styles. 
+The site utilizes React hooks including useState and useEffect, and global styles using Tailwind.  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,8 +116,7 @@ Project Link: [https://josiahgriggs.me](https://josiahgriggs.me)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []() Clint Bailey -> https://www.youtube.com/channel/UCmT9TwcIb_yAe7-Uqhn3fBA
-* []()
+* []() https://tailwindcss.com/
 * []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
