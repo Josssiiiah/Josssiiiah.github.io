@@ -7,6 +7,8 @@ import SocialIcons from "../pageElements/SocialIcons";
 import { RiGithubFill, RiLinkedinBoxFill } from "react-icons/ri";
 import { AiOutlineMail, AiOutlineLine } from "react-icons/ai";
 import { IoNewspaperOutline } from "react-icons/io5";
+import { BsNewspaper } from "react-icons/bs";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,12 +50,16 @@ const Navbar = () => {
 
           {/*Resume Link*/}
           <div className=" md:pr-4 lg:pr-16">
-            <div className="flex flex-row justify-between items-center mx-auto max-w-[200px] pr-8 cursor-pointer">
-              <IoNewspaperOutline size={25} className="mr-3 text-black" />
+            <div className="flex flex-row justify-between items-center mx-auto pr-8 cursor-pointer">
+              <IoNewspaperOutline size={40} className="mr-3 text-black " />
 
-              <Link href="/" className="w-full p-3">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                className="w-full p-3 hover:text-white"
+              >
                 <h3>Resume</h3>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -67,12 +73,7 @@ const Navbar = () => {
             </div>
             {/* Logo Image  */}
             <div className="top-10 pr-12 ">
-              <Image
-                src= {LogoJ}
-                width="60"
-                height="60"
-                alt="/"
-              />
+              <Image src={LogoJ} width="60" height="60" alt="/" />
             </div>
           </div>
         </div>
@@ -117,15 +118,16 @@ const Navbar = () => {
 
               {/*Resume Link*/}
               <div className="pr-0 lg:pr-12 ">
-                <div className="flex flex-row justify-between items-center mx-auto max-w-[200px] pr-8 cursor-pointer">
-                  <IoNewspaperOutline size={25} className="mr-3 text-black" />
+                <div className="flex flex-row justify-between items-center mx-auto pr-8 cursor-pointer">
+                  <IoNewspaperOutline size={40} className="mr-3 text-black" />
 
-                  <Link
-                    href="/"
-                    className="w-full p-3 text-gray-100 hover:text-white"
+                  <a
+                    href="/resume.pdf"
+                    target="_blank"
+                    className="w-full p-3 text-black hover:text-white"
                   >
                     <h3>Resume</h3>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

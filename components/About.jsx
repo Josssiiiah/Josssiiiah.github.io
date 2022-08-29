@@ -23,14 +23,12 @@ const About = () => {
             <h4 className="py-4 max-w-5xl text-left leading-loose md:hidden">
               <span className="font-bold"> I'm Josiah Griggs,</span> a CS
               student in the Bay Area. I am passionate about using Computer
-              Science as a <span className="font-bold"> lens </span>
-              to see the world differently, and a{" "}
-              <span className="font-bold"> tool </span> to change it for the
+              Science as a
+              <span className="font-bold"> tool </span> to change the world for the
               better.
             </h4>
             <h4 className="py-4 max-w-5xl text-left leading-loose md:hidden">
-              <span className="font-bold"> I love learning </span> about new
-              programming languanges and frameworks. I'm currently learning
+            I'm currently learning
               about the <span className="font-bold"> React </span> library and
               other, related frameworks.
             </h4>

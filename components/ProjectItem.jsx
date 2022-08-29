@@ -27,7 +27,7 @@ const ProjectItem = ({
         <div className="basis-2/3 mt-4">
           {/* Title  */}
           <div>
-            <h3 className="text-2xl text-black font-bold tracking-wider text-left pl-6">
+            <h3 className="text-black font-bold tracking-wider text-left pl-6">
               {title}
             </h3>
           </div>
@@ -37,7 +37,7 @@ const ProjectItem = ({
           </div>
           {/* Technologies  */}
           <div>
-            <p className="text-left pl-4 m-2 text-black/70"> {tech} </p>
+            <p className="text-left pl-4 m-2 tracking-wider text-black/70"> {tech} </p>
           </div>
           {/* View Project Button */}
 

@@ -33,28 +33,26 @@ const Projects = () => {
               <ProjectItem
                 title="Personal Website"
                 backgroundImg={josiahImg}
-                githubUrl="/property"
-                projectUrl=""
-                tech="React JS"
-                description="This is the first version of my personal website, which 
-            contains a portfolio, resume, and my timeline as a programmer. I built it with 
-            React and Next.js using features like Hooks, Dynamic Links, and more. "
+                githubUrl="https://github.com/Josssiiiah/Josssiiiah.github.io"
+                projectUrl="https://josiahgriggs.me"
+                tech="React.js | Next.js | Tailwind "
+                description="First version of personal website. Features portfolio, resume, and about me. Built using React.js and Next.js. Utilizes React hooks and global styles
+                "
               />
               <ProjectItem
                 title="Josiahbase"
                 backgroundImg={cryptoImg}
                 githubUrl="https://github.com/Josssiiiah/JosiahBase"
                 projectUrl="https://josiah-base.vercel.app/"
-                tech="React JS"
-                description="I started this project to dip my toes into APIs and learn more 
-            about what I've heard people talking about. "
+                tech="React.js  | Next.js  | Tailwind | Coin Gecko API | Google Firebase"
+                description="Starter project to dip my toes into API's. Features dynamically rendered components, dark/light mode, protected routes, and Firebase authentication "
               />     
               <ProjectItem
                 title="Calculator App"
                 backgroundImg={calculatorImg}
                 githubUrl="https://github.com/Josssiiiah/react-calculator"
                 projectUrl="https://josssiiiah.github.io/react-calculator/"
-                tech="React JS"
+                tech="React.js | Tailwind"
                 description="I started this project to dip my toes into APIs and learn more 
             about what I've heard people talking about. "
               />

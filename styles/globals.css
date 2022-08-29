@@ -16,12 +16,12 @@
     @apply text-3xl sm:text-4xl lg:text-6xl   font-[Merriweather];
   }
   h3 {
-    @apply text-xl sm:text-xl lg:text-2xl font-bold   font-[Merriweather];
+    @apply text-xl sm:text-xl lg:text-3xl font-bold   font-[Merriweather];
   }
 
 
   h4 {
-    @apply text-base md:text-lg lg:text-2xl font-[Merriweather];
+    @apply text-base md:text-lg lg:text-xl font-[Merriweather];
   }
 
   li {
