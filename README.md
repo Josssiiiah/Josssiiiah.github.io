@@ -59,7 +59,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is JosiahBase, a CoinBase clone built with Next.js, React.js, and the CoinGecko API. I built this project using Youtube tutorials to find out what API's are and to learn how to use them in web applications. This project features dynamically rendered components, dark/light mode, protected routes, Firebase authentication, and a saved coins feature. 
+This is the first version of my portfolio website built with Next.js and React.js. It features my projects portfolio, my resume, and an about me section. 
+The site utilizes React hooks including useState and useEffect, and global styles. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +107,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 JosiahGriggs - griggsjo@stanford.edu
 
-Project Link: [https://josiah-base.vercel.app/](https://josiah-base.vercel.app/)
+Project Link: [https://josiahgriggs.me](https://josiahgriggs.me)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
