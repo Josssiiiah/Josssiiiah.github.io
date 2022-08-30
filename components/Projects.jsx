@@ -34,7 +34,7 @@ const Projects = () => {
                 githubUrl="https://github.com/Josssiiiah/Josssiiiah.github.io"
                 projectUrl="https://josiahgriggs.me"
                 tech="React.js | Next.js | Tailwind "
-                description="First version of personal website. Features portfolio, resume, and about me. Built using React.js and Next.js. Utilizes React hooks and global styles
+                description="First version of personal website. Features portfolio, resume, and about me. Built using React.js and Next.js. Utilizes React hooks and global styles.
                 "
               />
               <ProjectItem
@@ -43,7 +43,7 @@ const Projects = () => {
                 githubUrl="https://github.com/Josssiiiah/JosiahBase"
                 projectUrl="https://josiah-base.vercel.app/"
                 tech="React.js  | Next.js  | Tailwind | Coin Gecko API | Google Firebase"
-                description="Starter project to dip my toes into API's. Features dynamically rendered components, dark/light mode, protected routes, and Firebase authentication "
+                description="Starter project to dip my toes into API's. Features dynamically rendered components, dark/light mode, protected routes, and Firebase authentication. "
               />
               <ProjectItem
                 title="Weather App"
@@ -52,7 +52,7 @@ const Projects = () => {
                 projectUrl="https://nextjs-weather-app1.vercel.app/"
                 tech="React.js | OpenWeatherMap API"
                 description="I ideated and completed this project to practice creating a React web app from scratch and 
-                utilizing dynamically rendered data from an API by myself "
+                utilizing dynamically rendered data from an API by myself. "
               />
               <ProjectItem
                 title="Calculator App"

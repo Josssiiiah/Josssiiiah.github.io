@@ -137,7 +137,7 @@ const Navbar = () => {
               <div className="flex flex-row justify-center items-center sm:justify-start px-12 w-full sm:max-w-[800px] mt-12">
                 {/* Divider  */}
                 <div className="text-left">
-                  <hr className="border-4 w-24 border-white" />
+                  <hr className="border-4 w-12 sm:w-24 border-white" />
                 </div>
 
                 {/* <SocialIcons /> */}
@@ -165,7 +165,7 @@ const Navbar = () => {
 
                 {/* Divider  */}
                 <div className="">
-                  <hr className="border-4 w-24 border-white" />
+                  <hr className="border-4 w-12 sm:w-24 border-white" />
                 </div>
               </div>
 
